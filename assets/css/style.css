@@ -1,98 +1,124 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 /* element selectors set bg to white green*/
 body {
-    background-color: #d0d1d3;
+  background-color: #d0d1d3;
 }
 
 /* header styles*/
 .nav {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #d0d1d3;
-    color: #323231;
-    position: sticky;
-    top: 0;
-    z-index: 1;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", "Arial", "sans-serif";
+  background-color: #d0d1d3;
+  color: #323231;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .nav h1 {
-    display: inline-block;
-    font-size: 48px;
+  display: inline-block;
+  font-size: 45px;
 }
 
 .nav h1 .Name {
-    color: #323231;
+  color: #323231;
 }
 
 .nav div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    "sans-serif";
+  font-size: 25px;
 }
 
 .nav div ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .nav div ul li {
-    display: inline-block;
-    margin-left: 25px;
+  display: inline-block;
+  margin-left: 25px;
 }
 
 a {
-    color: #222121;
-    text-decoration: none;
+  color: #222121;
+  text-decoration: none;
 }
 
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .about_section {
- display: flex;
- justify-content: space-evenly;
- width: 65%;
- margin-left: 350px;
- margin-bottom: 50px;
- 
+  display: flex;
+  justify-content: space-evenly;
+  width: 65%;
+  margin-left: 350px;
+  margin-bottom: 50px;
 }
 
 .about_section h2 {
-    margin-top: 50px;
-    padding: 20px;
+  margin-top: 50px;
+  padding: 20px;
 }
 
 .about_section p {
+
     padding: 20px;
 }
 
 .headshot_img {
-display: flex;
-justify-content: center;
-margin-top: 25px;
-margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 35px;
 }
 
 .project_container {
-display: flex;
-justify-content: space-evenly;
-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .hero {
-    height: 650px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/desk.jpeg");
-    background-size: cover;
-    background-position: center;
+  height: 650px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/deskwindow.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.work_section {
+  display: flex;
+  justify-content: space-evenly;
+  width: 95%;
+  margin-bottom: 25px;
+}
+
+.contact_section {
+  display: flex;
+  justify-content: center;
+  width: 65%;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.contact_section h2 {
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.contact_section p {
+  padding: 10px;
 }
 
 /* .float-left {
@@ -127,19 +153,16 @@ width: 100%;
     color: #ffffff;
 } */
 
-
 /* .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 } */
-
 
 /* .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 } */
-
 
 /* .search-eng-opt, .online-rep-man, .social-med-mark {
     margin-bottom: 20px;
@@ -149,7 +172,6 @@ width: 100%;
     background-color: #0072bb;
     color: #ffffff;
 } */
-
 
 /* .search-eng-opt img {
     max-height: 200px;
@@ -166,17 +188,15 @@ width: 100%;
 /* .search-eng-opt h2, .online-rep-man h2, .social-med-mark h2 {
     margin-bottom: 20px;
     font-size: 36px;
-} */ */
+} */
 
-
-
-footer {
+.footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-footer h3 {
+.footer h3 {
     font-size: 20px;
 }
