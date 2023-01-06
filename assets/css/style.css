@@ -7,6 +7,8 @@
 /* element selectors set bg to white green*/
 body {
   background-color: #d0d1d3;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+  "sans-serif"
 }
 
 /* header styles*/
@@ -23,7 +25,7 @@ body {
 
 .nav h1 {
   display: inline-block;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .nav h1 .Name {
@@ -68,10 +70,11 @@ p {
 .about_section h2 {
   margin-top: 50px;
   padding: 20px;
+  font-size: 34px;
 }
 
 .about_section p {
-
+font-size: 20px;
     padding: 20px;
 }
 
@@ -86,6 +89,11 @@ p {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+  
+}
+
+.image_container:hover {
+    transform: scale(1.2);
 }
 
 .hero {
@@ -94,7 +102,7 @@ p {
   margin-bottom: 25px;
   background-image: url("../images/deskwindow.png");
   background-size: cover;
-  background-position: center;
+  background-position:center;
 }
 
 .work_section {
@@ -104,10 +112,13 @@ p {
   margin-bottom: 25px;
 }
 
+.work_section h2 {
+  font-size: 34px;
+}
+
 .contact_section {
   display: flex;
   justify-content: center;
-  width: 65%;
   margin-top: 50px;
   margin-bottom: 25px;
 }
@@ -115,80 +126,14 @@ p {
 .contact_section h2 {
   margin-top: 50px;
   padding: 10px;
+  font-size: 34px;
 }
 
 .contact_section p {
   padding: 10px;
+  font-size: 20px;
 }
 
-/* .float-left {
-    float: left;
-    margin-right: 25px;
-} */
-
-/* .float-right {
-    float: right;
-    margin-left: 25px;
-} */
-
-/* .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-} */
-
-/* .benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-} */
-
-/* .benefit-lead, .benefit-brand, .benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
-/* .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-/* .benefit-lead img, .benefit-brand img, .benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
-/* .search-eng-opt, .online-rep-man, .social-med-mark {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
-
-/* .search-eng-opt img {
-    max-height: 200px;
-} */
-
-/* .online-rep-man img {
-    max-height: 200px;
-} */
-
-/* .social-med-mark img {
-    max-height: 200px;
-} */
-
-/* .search-eng-opt h2, .online-rep-man h2, .social-med-mark h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
 
 .footer {
     padding: 30px;
