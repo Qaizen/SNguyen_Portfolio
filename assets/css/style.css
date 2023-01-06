@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  border: 1px solid green;
 }
 
 /* element selectors set bg to white green*/
@@ -71,6 +72,7 @@ p {
   margin-top: 50px;
   padding: 20px;
   font-size: 34px;
+  font-weight: 500;
 }
 
 .about_section p {
@@ -114,34 +116,47 @@ font-size: 20px;
 
 .work_section h2 {
   font-size: 34px;
+  font-weight: 500;
 }
 
 .contact_section {
-  display: flex;
-  justify-content: center;
+  /* make the contact section stacked */
+  display: block;
   margin-top: 50px;
   margin-bottom: 25px;
+  /* To center your contact */
+
 }
 
 .contact_section h2 {
-  margin-top: 50px;
-  padding: 10px;
+
   font-size: 34px;
+   font-weight: 500;
+   margin-left: auto;
+   margin-right: auto;
+   width: 370px;
 }
 
 .contact_section p {
-  padding: 10px;
+  /* padding: 10px; */
   font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 420px;
+  
 }
 
 
-.footer {
-    padding: 30px;
+footer {
+  margin-top: 100px;  
+  padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    
 }
 
-.footer h3 {
+footer h3 {
     font-size: 20px;
+    font-weight: 500;
 }
