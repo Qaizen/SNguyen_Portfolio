@@ -117,6 +117,7 @@ p {
 .work_section h2 {
   font-size: 34px;
   font-weight: 500;
+  margin-left: 100px;
 }
 /* Contact form section */
 .contact_section {
