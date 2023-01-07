@@ -252,7 +252,7 @@ input {
   outline: none;
   color: #726659;
 
-  border: solid 1px #b3aca7;
+  border: solid 1px #373535;
   border-bottom: none;
 
   transition: all 0.3s ease-in-out;
@@ -280,7 +280,7 @@ textarea {
   font-family: "Lato", sans-serif;
   font-size: 0.875em;
 
-  border: solid 1px #b3aca7;
+  border: solid 1px #373535;
 
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -306,7 +306,7 @@ textarea:hover {
   outline: none;
   cursor: pointer;
 
-  border: solid 1px #b3aca7;
+  border: solid 1px #373535;
   border-top: none;
 }
 
