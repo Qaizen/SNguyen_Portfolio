@@ -4,7 +4,6 @@
   margin: 0;
 }
 
-
 body {
   background-color: #e2dedb;
   font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
@@ -306,6 +305,7 @@ textarea:hover {
   color: #e2dedb;
 }
 
+/* footer section */
 footer {
   margin-top: 50px;
   padding: 30px;
