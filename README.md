@@ -22,9 +22,9 @@ Contact form- minimalistic form: (https://codepen.io/matmarsiglio/pen/pojoPR)
 
 ## SNguyen portfolio Screenshots
 
-![Screenshot1](Develop/assets/images/Screenshot1.png)
+![Screenshot1](assets/images/Screenshot1.jpg)
 
-![Screenshot2](Develop/assets/images/Screenshot2.png)
+![Screenshot2](assets/images/Screenshot2.jpg)
 
 ## License
 
